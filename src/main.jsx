@@ -7,6 +7,8 @@ import AppLayout from './components/universal/AppLayout.jsx'
 import Dashboard from './pages/dashboard.jsx';
 import { createBrowserRouter, RouterProvider} from 'react-router'
 import Requests from './pages/Requests.jsx'
+import SignUp from './pages/SignUp'
+import Login from './pages/Login'
 
 const router = createBrowserRouter([
   {
@@ -25,6 +27,14 @@ const router = createBrowserRouter([
       }
     ],
   },
+  {
+        path : "/sign-up",
+        element: <SignUp/>
+      },
+      {
+        path : "/login",
+        element: <Login/>
+      },
 ]);
 
 createRoot(document.getElementById('root')).render(
