@@ -25,21 +25,6 @@ const App = () => {
 
   return (
     <div className="min-h-screen flex flex-col">
-      <nav className="flex justify-between items-center p-4 bg-(--grayTwo)">
-        <div>
-          <span className='bg-(--blackOne) rounded-xl p-3'>
-            <i className="fa-solid fa-book-open text-white"></i>
-          </span>
-          <span className='ml-2 font-bold'>PeerLearn</span>
-        </div>
-        <div className="flex items-center gap-4">
-          <Link to="/">login</Link>
-          <Link to="/register">
-            <button className='cursor-pointer px-4 py-3 rounded-2xl bg-(--blackOne) text-sm text-white'>Sign Up</button>
-          </Link>
-        </div>
-      </nav>
-
       <section className="relative overflow-hidden pt-16 pb-24 md:pt-24 md:pb-32">
         <div className="container mx-auto px-4 text-center">
           <div className="inline-flex items-center rounded-full border border-gray-200 bg-gray-50 px-3 py-1 text-sm text-gray-600 mb-8">
