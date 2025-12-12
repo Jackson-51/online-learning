@@ -18,7 +18,7 @@ export function RequestCard({
   status,
   student,
   date,
-  onAccept,
+  // onAccept,
 }) {
   const getStatusBadge = (s) => {
     switch (s) {
